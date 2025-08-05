@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/devotech/static/css/main.b60eb1a0.css",
+    "main.js": "/devotech/static/js/main.79abe716.js",
+    "static/js/453.0e8115a5.chunk.js": "/devotech/static/js/453.0e8115a5.chunk.js",
+    "static/media/mindset.png": "/devotech/static/media/mindset.d4aa055d7094017e047d.png",
+    "static/media/yoga.png": "/devotech/static/media/yoga.ccf8c2d73e3ddefb7806.png",
+    "static/media/nutrition.png": "/devotech/static/media/nutrition.73201fce27c94515fbe9.png",
+    "static/media/cardio.png": "/devotech/static/media/cardio.e75bbe202af06a758afc.png",
+    "static/media/recovery.png": "/devotech/static/media/recovery.a3ae02e6c8b0cd8c5b0d.png",
+    "static/media/background3.png": "/devotech/static/media/background3.d3e99594b171557dbe65.png",
+    "static/media/strength.png": "/devotech/static/media/strength.45e97d03110701442c7a.png",
+    "static/media/sep.png": "/devotech/static/media/sep.96344b34750f113e7fc4.png",
+    "static/media/carbs.jpg": "/devotech/static/media/carbs.4dcbb88ac17e6c156317.jpg",
+    "static/media/pic.jpg": "/devotech/static/media/pic.12d64f353402df64c47e.jpg",
+    "static/media/pic1.jpg": "/devotech/static/media/pic1.fd5387ca88c063efcb26.jpg",
+    "static/media/sodium.jpg": "/devotech/static/media/sodium.50f902a316eb09a9f32c.jpg",
+    "static/media/logo.png": "/devotech/static/media/logo.351dac6130126a3782ee.png",
+    "static/media/fat.jpg": "/devotech/static/media/fat.b480f8744f500acc7d85.jpg",
+    "static/media/smartwatch.jpg": "/devotech/static/media/smartwatch.86296f9275bdabd1bea1.jpg",
+    "static/media/fiber.jpg": "/devotech/static/media/fiber.bd66aba514216cb275c2.jpg",
+    "static/media/pic3.jpg": "/devotech/static/media/pic3.562e563c082ce603ebb6.jpg",
+    "static/media/protein.jpg": "/devotech/static/media/protein.002bd0fcefdb29e3c9bc.jpg",
+    "static/media/sugar.jpg": "/devotech/static/media/sugar.14a28f4a2e46d3ec2151.jpg",
+    "static/media/background1.jpg": "/devotech/static/media/background1.4720ff9f407dd26a3d4d.jpg",
+    "static/media/calories.jpg": "/devotech/static/media/calories.041454dd524efbd12d79.jpg",
+    "static/media/pic2.jpg": "/devotech/static/media/pic2.8bc346e22a68cca36c36.jpg",
+    "static/media/background2.jpg": "/devotech/static/media/background2.4ccdd174d4253d0a632c.jpg",
+    "index.html": "/devotech/index.html",
+    "main.b60eb1a0.css.map": "/devotech/static/css/main.b60eb1a0.css.map",
+    "main.79abe716.js.map": "/devotech/static/js/main.79abe716.js.map",
+    "453.0e8115a5.chunk.js.map": "/devotech/static/js/453.0e8115a5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b60eb1a0.css",
+    "static/js/main.79abe716.js"
+  ]
+}
