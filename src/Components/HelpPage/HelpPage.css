@@ -1,0 +1,31 @@
+/* Help Page Specific Styles */
+.help-page {
+  font-family: 'Arial', sans-serif;
+  background: #f7f7f7;
+  color: #333;
+  padding: 20px;
+}
+
+/* Hero Section for Help Page */
+.help-page .hero-section {
+  background: linear-gradient(135deg, #ff66cc, #9966ff);
+  padding: 50px;
+  border-radius: 8px;
+  color: white;
+}
+
+.page-title {
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.subheading {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+/* Content Section */
+.help-section {
+  margin-top: 30px;
+}

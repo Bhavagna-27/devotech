@@ -1,0 +1,71 @@
+/* Global background */
+body {
+  background-color: #000000; /* Black background */
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+  color: #ffffff; /* Default text to white */
+}
+
+/* Navbar styles */
+.navbar {
+  background-color: #111111; /* Dark navbar for contrast */
+}
+
+.navbar-brand img {
+  height: 50px;
+}
+
+/* Nav links */
+.nav-link {
+  color: #66b2ff !important; /* Light blue */
+  transition: color 0.3s;
+}
+
+.nav-link:hover {
+  color: #ffffff !important;
+}
+
+/* Dropdown */
+.dropdown-menu {
+  background-color: #222222;
+}
+
+.dropdown-item {
+  color: #66b2ff;
+}
+
+.dropdown-item:hover {
+  background-color: #333;
+  color: #ffffff;
+}
+
+/* Buttons */
+.btn-signup, .hero-signup-button {
+  background-color: #003366;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn-signup:hover, .hero-signup-button:hover {
+  background-color: #0055aa;
+  color: #ffffff;
+}
+
+/* Hero section */
+.background-image {
+  background-color: #000000; /* Black */
+  padding: 100px 20px;
+  text-align: center;
+}
+
+.hero-content h1 {
+  color: #FFD700; /* Yellow */
+}
+
+.hero-content p {
+  color: #00FF7F; /* Neon green */
+}

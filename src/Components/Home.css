@@ -1,0 +1,403 @@
+/* Ensure the entire background is white */
+body {
+  background-color: #ffffff;
+}
+
+/* Optional: Ensure specific sections like hero-section have a white background too */
+.hero-section {
+  background-color: #ffffff; /* Optional if needed */
+}
+
+/* Optional: Ensure the footer or other sections maintain the background color */
+footer {
+  background-color: #ffffff;
+}
+
+  .navbar {
+    background-color: white !important;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  
+  .navbar .nav-link,
+  .navbar-brand {
+    color: #333 !important;
+    font-weight: 500;
+  }
+  
+  .navbar .nav-link:hover,
+  .navbar .nav-link.active-link {
+    color: #007bff !important;
+  }
+  
+  .navbar-brand img,
+  .devotech-logo {
+    max-height: 100px;
+    height: 90px;
+    width: auto;
+    object-fit: contain;
+    margin-right: 10px;
+  }
+  
+  /* Signup Buttons */
+  .btn-signup,
+  .btn-signup-pink {
+    background-color: #e91e63;
+    color: white;
+    border: none;
+    font-weight: bold;
+    border-radius: 30px;
+    padding: 10px 25px;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn-signup:hover,
+  .btn-signup-pink:hover {
+    background-color: #c2185b;
+  }
+  
+  /* Hero Section */
+  .hero-section {
+    position: relative;
+    height: 100vh;
+    background: url('../images/background1.jpg') no-repeat center center/cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(10, 10, 20, 0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .hero-content {
+    max-width: 800px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.85);
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+  }
+  
+  .hero-title {
+    font-size: 3rem;
+    line-height: 1.2;
+    font-weight: bold;
+  }
+  
+  .hero-description {
+    font-size: 1.25rem;
+    margin-top: 1rem;
+  }
+  
+  /* Highlight pink text */
+  .highlight-text {
+    color: #e91e63;
+    font-weight: 800;
+  }
+  
+  /* Purple text class */
+  .text-purple {
+    color: #6a1b9a !important;
+  }
+  
+  /* Badge for "NEW" */
+  .badge.bg-secondary {
+    font-size: 0.65rem;
+    padding: 0.25em 0.5em;
+    margin-left: 0.25rem;
+    border-radius: 0.5rem;
+  }
+  
+  .brand {
+    font-size: 1.25rem;
+    font-family: 'Georgia', serif;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    color: #999;
+  }
+  
+  .featured-logos .brand {
+    font-family: 'Georgia', serif;
+    color: #ccc;
+    font-size: 2.0rem;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+ .featured-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 0;
+  background-color: #e5e5e8; /* Soft grey like your login page */
+}
+
+.featured-card {
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 32px;
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  max-width: 700px;
+  width: 90%;
+}
+
+.featured-title {
+  font-size: 28px;
+  font-weight: 1100;
+  color: #1d1d1d;
+  margin-bottom: 30px;
+}
+
+.featured-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+  font-size: 500px;
+  color: #bbb;
+}
+
+/* Individual Brand Styles */
+.womenshealth {
+  font-family: 'Times New Roman', serif;
+}
+.womenshealth:hover {
+  color: hotpink;
+}
+
+.people {
+  font-family: 'Impact', sans-serif;
+  font-weight: bold;
+}
+.people:hover {
+  color: #007bff;
+}
+
+.britco .brit,
+.britco .plus,
+.britco .co {
+  color: #ccc;
+  font-family: 'Georgia', serif;
+  transition: color 0.3s ease;
+}
+.britco:hover .brit {
+  color: red;
+}
+.britco:hover .plus {
+  color: blue;
+}
+.britco:hover .co {
+  color: gold;
+}
+
+.cafemom {
+  font-family: 'Cursive', serif;
+  font-style: italic;
+}
+.cafemom:hover {
+  color: black;
+}
+
+.sheknows .she,
+.sheknows .knows {
+  color: #ccc;
+  font-family: 'Georgia', serif;
+  transition: color 0.3s ease, font-weight 0.3s ease;
+}
+.sheknows:hover .she,
+.sheknows:hover .knows {
+  color: red;
+  font-weight: bold;
+}
+
+
+.secondary-image-section {
+  margin-top: 00px;
+  text-align: center;
+}
+
+.secondary-image-section {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.secondary-image {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  z-index: 1;
+}
+
+.secondary-image-section .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(10, 10, 20, 0.6); /* dark transparent overlay */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  text-align: center;
+  z-index: 2;
+}
+
+/* Override unwanted white background from shared styles */
+.secondary-image-section .hero-content {
+  background: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+.transition-banner {
+  background: linear-gradient(to right, hsl(0, 9%, 94%), hsl(0, 19%, 95%));
+  padding: 4rem 2rem;
+}
+
+.transition-banner h2 {
+  font-family: 'Georgia', serif;
+  font-size: 2.5rem;
+  line-height: 1.4;
+}
+
+.text-highlight {
+  color: #e91e63; /* Pink accent for “Empowering Innovation” */
+}
+
+
+.text-purple {
+  color: #6a1b9a !important; /* Purple */
+}
+
+
+
+.separator-image {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+.separator-section {
+  text-align: center;
+  padding: 2rem 1rem;
+  background-color: transparent;
+}
+
+h3 {
+  margin-bottom: 1rem; /* space between text and image */
+  color: white;
+  font-size: 4
+  vw; /* adjust font size based on viewport width */
+  line-height: 1.2; /* adjust line height for readability */
+  word-wrap: break-word; /* break long words */
+  text-align: center; /* center the text */
+}
+
+
+/* Navbar Styling */
+.navbar-nav .nav-item .nav-link {
+  transition: color 0.3s ease, background-color 0.3s ease;
+}
+
+/* Active Link */
+.navbar-nav .nav-item .nav-link.active-link {
+  color: #fff !important;
+  background-color: #6f42c1 !important; /* Purple color */
+  border-radius: 25px;
+  padding: 10px 20px;
+}
+
+.navbar-nav .nav-item .nav-link:hover {
+  color: #fff !important;
+  background-color: #6f42c1 !important; /* Purple color */
+  border-radius: 25px;
+  padding: 10px 20px;
+}
+
+/* Dropdown Styling */
+.navbar-nav .nav-item.dropdown .dropdown-menu {
+  background-color: #ffffff; /* White background */
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transform: scale(0.95);
+  transition: all 0.3s ease;
+  opacity: 0;
+}
+
+.navbar-nav .nav-item.dropdown:hover .dropdown-menu {
+  transform: scale(1);
+  opacity: 1;
+}
+
+.navbar-nav .nav-item .dropdown-menu .dropdown-item {
+  color: #6f42c1;
+  padding: 12px 20px;
+  font-weight: 500;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.navbar-nav .nav-item .dropdown-menu .dropdown-item:hover {
+  background-color: #f1f1f1;
+  color: #6f42c1;
+  cursor: pointer;
+}
+
+/* Hover Effect for Sub-Items */
+.navbar-nav .nav-item .dropdown-item:hover .dropdown-item {
+  background-color: #f8f9fa;
+}
+
+/* Custom Badge for 'NEW' */
+.nav-item .badge.bg-secondary {
+  background-color: #6f42c1 !important; /* Purple */
+}
+
+.signup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.75);
+  z-index: 9999;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.why-us-section {
+  background-color: #f7f7f7;
+}
+
+.why-us-section h5 {
+  color: #6a1b9a;
+}
+
+.why-us-section p {
+  color: #444;
+  font-size: 0.95rem;
+}
+
+

@@ -1,0 +1,121 @@
+/* General styles for the page */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Arial', sans-serif;
+}
+
+body {
+  background-color: #f7f7f7;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+/* Container for the fuel facts */
+.fuel-facts-container {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  width: 80%;
+  max-width: 800px;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Header styles */
+.fuel-facts-header h1 {
+  font-size: 36px;
+  color: #4CAF50;
+  margin-bottom: 10px;
+}
+
+.fuel-facts-header p {
+  font-size: 18px;
+  color: #777;
+}
+
+/* Table styles */
+.fuel-facts-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0;
+}
+
+.fuel-facts-table th,
+.fuel-facts-table td {
+  padding: 12px;
+  text-align: left;
+}
+
+.fuel-facts-table th {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 18px;
+}
+
+.fuel-facts-table td {
+  background-color: #f9f9f9;
+  font-size: 16px;
+  color: #333;
+  border-bottom: 1px solid #ddd;
+}
+
+.fuel-facts-table tr:nth-child(even) td {
+  background-color: #f1f1f1;
+}
+
+.fuel-facts-table tr:hover td {
+  background-color: #e2f7e2;
+}
+
+/* Image styling */
+.nutrient-image {
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+}
+
+.circle {
+  border-radius: 50%;
+}
+
+.rounded {
+  border-radius: 8px;
+}
+
+/* Footer styles */
+.fuel-facts-footer p {
+  font-size: 14px;
+  color: #555;
+  margin-top: 20px;
+}
+
+/* Add some responsiveness */
+@media (max-width: 600px) {
+  .fuel-facts-container {
+    padding: 15px;
+  }
+
+  .fuel-facts-header h1 {
+    font-size: 30px;
+  }
+
+  .fuel-facts-table th,
+  .fuel-facts-table td {
+    padding: 10px;
+  }
+
+  .fuel-facts-table th {
+    font-size: 16px;
+  }
+
+  .fuel-facts-table td {
+    font-size: 14px;
+  }
+}
